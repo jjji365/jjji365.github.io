@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+.top {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100vh;
+  background-image: url(img/top.jpg);
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-wrapper {
+  height: 0;
+  padding-bottom: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-text {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  width: 35vw;
+  height: 0;
+  min-width: 350px;
+  min-height: calc(350px /4);
+  padding-bottom: calc(35vw /4);
+  border: 4px solid white;
+  opacity: 0.9;
+}
+
+.top-text p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 300%;
+  opacity: 90%;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 90%;
+  width: 6.5vw;
+  height: 6.5vw;
+  border: 2px solid rgba(196, 196, 196, 0.5);
+  border-radius: 50%;
+}
+
+.fa-chevron-down {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 90%;
+  color: rgba(196, 196, 196, 0.5);
+  font-size: 3.65vw;
+}
+
+.main {
+  width: 60vw;
+  margin: 0 auto 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+  color: #4b4b4b;
+  font-weight: lighter;
+  margin-bottom: 85px;
+}
+
+.skill {
+  margin-top: 160px;
+}
+
+.skill-item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skill-item {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  display: inline-block;
+  width: 30%;
+  min-width: 160px;
+  text-align: center;
+}
+
+.skill-item span {
+  width: 100%;
+  font-size: 100px;
+  margin-bottom: 45px;
+  color: #4b4b4b;
+}
+
+.skill-item h2 {
+  display: inline-block;
+  font-size: 36px;
+  color: #7e7e7e;
+  width: 160px;
+  margin: 0 auto 28px auto;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #919191;
+}
+
+.skill-item p {
+  font-size: 22px;
+  color: #656565;
+}
+
+.design {
+  margin: 0 60px;
+}
+
+.work {
+  margin-top: 105px;
+}
+
+.work-item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -70px;
+}
+
+.work-item-container img {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 84px;
+  margin-left: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.work-item-container p {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 84px;
+  margin-left: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #383838;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.contact .contact-text {
+  -webkit-transform: translateY(-45px);
+          transform: translateY(-45px);
+}
+
+.contact p {
+  font-size: 22px;
+  color: #656565;
+}
+
+.contact-container {
+  width: 35%;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 7%;
+}
+
+.contact-container p {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.contact-container .fa-envelope {
+  margin-right: 25px;
+}
+
+.contact-container .fa-twitter-square {
+  margin-right: 25px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-color: #323232;
+}
+/*# sourceMappingURL=main.css.map */
